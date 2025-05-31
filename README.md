@@ -85,6 +85,17 @@ stock-prediction-linear-regression/
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
+## Screenshots
+![image](https://github.com/user-attachments/assets/de3e80ed-07ca-4fcb-bc9d-560cb3d51097)
+![image](https://github.com/user-attachments/assets/3ccdc55c-8fc5-4375-b9dc-49fc47ee7e05)
+
+## Update Stocks
+🔍 Add New Stock (Enter ticker: [Input])
+🗑️ Remove Stock
+![image](https://github.com/user-attachments/assets/93f4a291-d61c-450d-9bd9-03eec06a44f2)
+can also check With Indian Stocks:
+![image](https://github.com/user-attachments/assets/7ae6d25a-c577-414a-b759-15bd568ab3f1)
+
 
 ## License
 
