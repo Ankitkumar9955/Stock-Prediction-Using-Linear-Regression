@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ## ▶️ Usage
 
 ```bash
-python stock_predictor.py
+python main.py
 ```
 
 Then follow the prompts to:
