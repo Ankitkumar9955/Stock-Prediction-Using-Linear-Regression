@@ -8,6 +8,9 @@ from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLa
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import QTimer
 
+
+
+
 import auth, stock_alerts, stock_predictor
 
 # Suppress TensorFlow logs
@@ -126,6 +129,9 @@ class StockApp(QWidget):
         self.timer.timeout.connect(self.fetch_news)
         self.timer.start(10000)
 
+
+
+
     def update_stock_table(self):
         self.stock_table.setRowCount(len(self.stocks))
         for i, stock in enumerate(self.stocks):
@@ -171,6 +177,7 @@ class StockApp(QWidget):
             self.stock_selector.addItem(stock.upper())
             self.update_stock_table()
 
+    
     def set_price_alert(self):
         stock, ok = QInputDialog.getItem(self, "Set Alert", "Select Stock:", self.stocks, 0, False)
         if ok:
